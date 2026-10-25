@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="view" aria-label="Animiertes Neon-Logo VI hinter einer regennassen Scheibe" role="img"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<section class="countdown" id="countdown" aria-label="Countdown bis zum Release">
+  <div class="count" id="count" role="timer">
+    <div class="cell"><div class="num" data-unit="days"></div><div class="lbl">Tage</div></div>
+    <div class="sep" aria-hidden="true">:</div>
+    <div class="cell"><div class="num" data-unit="hours"></div><div class="lbl">Stunden</div></div>
+    <div class="sep" aria-hidden="true">:</div>
+    <div class="cell"><div class="num" data-unit="minutes"></div><div class="lbl">Minuten</div></div>
+    <div class="sep" aria-hidden="true">:</div>
+    <div class="cell"><div class="num" data-unit="seconds"></div><div class="lbl">Sekunden</div></div>
+  </div>
+  <p class="when" id="when">19. November 2026 &middot; 00:00 Uhr</p>
+  <p class="done-msg" id="done" hidden>Es ist soweit. Der Release ist da.</p>
+</section>
+<noscript>Für diese Seite wird JavaScript benötigt.</noscript>
+<script src="script.js"></script>
+<script src="countdown.js"></script>
+</body>
+</html>
